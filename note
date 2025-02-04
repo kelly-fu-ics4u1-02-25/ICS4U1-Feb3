@@ -1,0 +1,53 @@
+int num;
+String word;//text
+double fracNum;//fractional num,not whole numbers (not decimal, b/c decinmal base 10 num)
+boolean trueFalse;
+char c;
+
+//lowercase are primitive -- cannot be broken into other data type
+//uppercase are non-primitive -- can be broken into other data type
+
+//all variable start with a lower case letter ALWAYS
+//if your vafiable has more than one word, all following words will begin with the uppercase Eg.camelCase
+//variable should be obvious
+
+num = 4;//does not mean num qeuals 4, just store the value of 4 in the variable num
+word = "Hello World";
+fractNum = 3.5;
+trueFalse = true;
+c = "!";//characters use single quotes, can only store a single 
+
+//String - escape character
+"\" alters the folloing characters funtionally
+System.out.println(x:"a\na");
+// \n - newline character
+// \t - tab
+// \" - changes the double quote from a string ending symbol to a 
+// \\ - change the escape character back to a noremal backslash
+
+
+//variable - using the variable at any other point of the program
+// variable is use anywhere except the left side of the = symbol
+
+num = num + 1;//assginment always happens LAST, right side happens before the left side
+num++;
+++num;
+num += 1;
+
+//**differences between num++ & ++num
+num=5;
+System.out.println(num++);//5
+
+num=5;
+System.out.println(++num);//6
+
+System.out.println(10%3);//1
+
+
+//-=, *=, /=, %=
+
+
+System.out.println(7/5);// the numbers are integer, therefore the answer is integer
+System.out.println(3.5+7/5);// 4.5
+
+
