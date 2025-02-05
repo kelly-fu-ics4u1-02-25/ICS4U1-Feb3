@@ -54,4 +54,6 @@ System.out.println(3.5+7/5);// 4.5
 System.out.println(5 + 5 + “is a num");//10 is a num
 System.out.println("num is"+ 5 + 5);//num is 55
 
+char text=in.nextLine();
+in.nextLine();//no longer need this line, only for nextIn, nextBoolean, nextDouble
 
