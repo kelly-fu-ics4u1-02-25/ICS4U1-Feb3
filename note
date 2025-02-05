@@ -50,4 +50,8 @@ System.out.println(10%3);//1
 System.out.println(7/5);// the numbers are integer, therefore the answer is integer
 System.out.println(3.5+7/5);// 4.5
 
+//*Important*
+System.out.println(5 + 5 + “is a num");//10 is a num
+System.out.println("num is"+ 5 + 5);//num is 55
+
 
